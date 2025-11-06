@@ -1,0 +1,79 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunny Cafe - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-yellow-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <h1 class="text-2xl font-bold text-yellow-600">Sunny Cafe</h1>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="/" class="text-gray-900 hover:text-yellow-600 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                        <a href="/about" class="text-gray-900 hover:text-yellow-600 px-3 py-2 rounded-md text-sm font-medium">About</a>
+                        <a href="/menu" class="text-gray-900 hover:text-yellow-600 px-3 py-2 rounded-md text-sm font-medium">Menu</a>
+                        <a href="/contact" class="text-gray-900 hover:text-yellow-600 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                    </div>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button class="text-gray-900 hover:text-yellow-600">Menu</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-yellow-400 to-orange-500 text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl md:text-6xl font-bold mb-4">Welcome to Sunny Cafe</h2>
+            <p class="text-xl md:text-2xl mb-8">Enjoy the warmth of the sun with our delicious coffee and pastries.</p>
+            <a href="/menu" class="bg-white text-yellow-500 px-8 py-3 rounded-full font-semibold hover:bg-gray-100">View Menu</a>
+        </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-3xl font-bold text-center mb-12">Featured Items</h3>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="w-16 h-16 bg-yellow-100 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <span class="text-2xl">☕</span>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-2">Fresh Coffee</h4>
+                    <p>Start your day with our premium blend.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="w-16 h-16 bg-yellow-100 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <span class="text-2xl">🥐</span>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-2">Pastries</h4>
+                    <p>Handmade daily for your delight.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="w-16 h-16 bg-yellow-100 rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <span class="text-2xl">🌞</span>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-2">Sunny Vibes</h4>
+                    <p>Relax in our cozy atmosphere.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>&copy; 2023 Sunny Cafe. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
